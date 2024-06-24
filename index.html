@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOREUT</title>
+    <link rel="icon" type="image/png" href="picture/icon.png">
+    <style>
+        @font-face {
+            font-family: 'BMJUA';
+            src: url('font/BMJUA_ttf.ttf') format('truetype');
+        }
+        body {
+            font-family: 'BMJUA', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        header a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            color: #fff;
+        }
+        header img {
+            margin-right: 10px;
+            height: 50px; /* 아이콘 크기에 맞게 조정 */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .banner {
+            background: url('picture/background.png') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            font-size: 2rem;
+        }
+        .content {
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #333;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <img src="picture/icon.png" alt="FOREUT Icon">
+            <h1>FOREUT</h1>
+        </a>
+    </header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="link.html">LINK</a>
+    </nav>
+    <div class="banner">
+        <div>FOREUT에 오신 것을 환영합니다</div>
+    </div>
+    <div class="content">
+        <div id="home" class="section">
+            <h2>FOREUT...(KOREA)</h2>
+            <p>안녕하십니까? FOREUT 그룹 창작자 5koras입니다 이 그룹은 여러가지 활동을 할 예정입니다<br>완벽한 영상으로 즐거움을 드리겠습니다</p>
+        </div>
+        <div id="content" class="section">
+            <h2>FOREUT...(ENGLISH)</h2>
+            <p>hello? This is 5koras, the creator of the FOREUT group. This group plans to engage in various activities<br>We will entertain you with perfect videos.</p>
+        </div>
+    </div>
+    <footer>
+        <p>c 2024 FOREUT All rights reserved. | Contact: <a href="mailto:5koras.business@gmail.com">5koras.business@gmail.com</a></p>
+    </footer>
+</body>
+</html>
